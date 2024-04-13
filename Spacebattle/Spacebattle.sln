@@ -7,6 +7,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spacebattle", "Spacebattle\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacebattleTests", "SpacebattleTests\SpacebattleTests.csproj", "{3EDE0DDD-E051-4352-A647-C4C70BB7C6CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLoader", "PluginLoader\PluginLoader.csproj", "{8FB45E58-D226-4BF3-BCD4-7AAA4D59EB2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacebattleApp", "SpacebattleApp\SpacebattleApp.csproj", "{F30CE39F-99E4-4567-8558-3262ADFAAD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacebattleMoreArmsPlugin", "SpacebattleMoreArmsPlugin\SpacebattleMoreArmsPlugin.csproj", "{6F8790B2-6F49-470E-B264-15E2B3330F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasePlugin", "BasePlugin\BasePlugin.csproj", "{279C6F6E-141A-4D89-B83B-9AA6C30FBC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLoadPlugin", "FirstLoadPlugin\FirstLoadPlugin.csproj", "{99153528-832C-4FF7-BBB0-EA3C8A38B59E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{3E0DA75E-C1AE-4965-9A0B-9A90454E3C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacebattleMoreShipsPlugin", "SpacebattleMoreShipsPlugin\SpacebattleMoreShipsPlugin.csproj", "{0C7AB905-24FE-47C0-8180-4CE6C3B7740F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +35,40 @@ Global
 		{3EDE0DDD-E051-4352-A647-C4C70BB7C6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDE0DDD-E051-4352-A647-C4C70BB7C6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDE0DDD-E051-4352-A647-C4C70BB7C6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB45E58-D226-4BF3-BCD4-7AAA4D59EB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB45E58-D226-4BF3-BCD4-7AAA4D59EB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB45E58-D226-4BF3-BCD4-7AAA4D59EB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB45E58-D226-4BF3-BCD4-7AAA4D59EB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30CE39F-99E4-4567-8558-3262ADFAAD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30CE39F-99E4-4567-8558-3262ADFAAD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30CE39F-99E4-4567-8558-3262ADFAAD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30CE39F-99E4-4567-8558-3262ADFAAD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8790B2-6F49-470E-B264-15E2B3330F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8790B2-6F49-470E-B264-15E2B3330F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8790B2-6F49-470E-B264-15E2B3330F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8790B2-6F49-470E-B264-15E2B3330F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279C6F6E-141A-4D89-B83B-9AA6C30FBC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279C6F6E-141A-4D89-B83B-9AA6C30FBC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279C6F6E-141A-4D89-B83B-9AA6C30FBC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279C6F6E-141A-4D89-B83B-9AA6C30FBC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99153528-832C-4FF7-BBB0-EA3C8A38B59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99153528-832C-4FF7-BBB0-EA3C8A38B59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99153528-832C-4FF7-BBB0-EA3C8A38B59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99153528-832C-4FF7-BBB0-EA3C8A38B59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7AB905-24FE-47C0-8180-4CE6C3B7740F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7AB905-24FE-47C0-8180-4CE6C3B7740F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7AB905-24FE-47C0-8180-4CE6C3B7740F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7AB905-24FE-47C0-8180-4CE6C3B7740F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27EA0387-9B37-411B-B8F6-1DB0BD4491E9}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99153528-832C-4FF7-BBB0-EA3C8A38B59E} = {3E0DA75E-C1AE-4965-9A0B-9A90454E3C99}
+		{6F8790B2-6F49-470E-B264-15E2B3330F45} = {3E0DA75E-C1AE-4965-9A0B-9A90454E3C99}
+		{0C7AB905-24FE-47C0-8180-4CE6C3B7740F} = {3E0DA75E-C1AE-4965-9A0B-9A90454E3C99}
 	EndGlobalSection
 EndGlobal
